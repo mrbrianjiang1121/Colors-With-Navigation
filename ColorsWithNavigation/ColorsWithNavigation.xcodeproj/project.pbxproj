@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3703DEE22CE59B700153BA5 /* DetailColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3703DED22CE59B700153BA5 /* DetailColorViewController.swift */; };
 		D3CDC28622CCFB7000E25BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CDC28522CCFB7000E25BD5 /* AppDelegate.swift */; };
 		D3CDC28B22CCFB7000E25BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CDC28922CCFB7000E25BD5 /* Main.storyboard */; };
 		D3CDC28D22CCFB7100E25BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CDC28C22CCFB7100E25BD5 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3703DED22CE59B700153BA5 /* DetailColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorViewController.swift; sourceTree = "<group>"; };
 		D3CDC28222CCFB7000E25BD5 /* ColorsWithNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsWithNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CDC28522CCFB7000E25BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CDC28A22CCFB7000E25BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D3CDC28E22CCFB7100E25BD5 /* LaunchScreen.storyboard */,
 				D3CDC29122CCFB7100E25BD5 /* Info.plist */,
 				D3CDC29922CCFF6A00E25BD5 /* Colors.swift */,
+				D3703DED22CE59B700153BA5 /* DetailColorViewController.swift */,
 				D3CDC28322CCFB7000E25BD5 /* Products */,
 			);
 			path = ColorsWithNavigation;
@@ -142,6 +145,7 @@
 				D3CDC29822CCFBDE00E25BD5 /* ColorsNavigationViewController.swift in Sources */,
 				D3CDC29A22CCFF6A00E25BD5 /* Colors.swift in Sources */,
 				D3CDC28622CCFB7000E25BD5 /* AppDelegate.swift in Sources */,
+				D3703DEE22CE59B700153BA5 /* DetailColorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

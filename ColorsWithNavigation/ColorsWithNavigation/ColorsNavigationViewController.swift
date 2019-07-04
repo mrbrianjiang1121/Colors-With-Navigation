@@ -18,6 +18,8 @@ class ColorsNavigationViewController: UIViewController, UITableViewDelegate, UIT
                   Color(ColorName: "Purple", color: UIColor.purple),
                   Color(ColorName: "Brown", color: UIColor.brown)]
 
+    @IBOutlet weak var colorsTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,7 +44,20 @@ class ColorsNavigationViewController: UIViewController, UITableViewDelegate, UIT
         
         return cell
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.isSelected = false
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if let destination = segue.destination as? DetailColorViewController,
+        let row = colorsTableView.indexPathForSelectedRow?.row
+        {
+            destination.colors = colors[row]
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
