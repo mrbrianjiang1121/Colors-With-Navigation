@@ -19,11 +19,10 @@ class DetailColorViewController: UIViewController {
         
         LabelNameofColor.text = colors?.ColorName
         
-        self.view.backgroundColor = colors?.color
-        
-        self.view.backgroundColor = colors?.color
-        
         self.title = colors?.ColorName
+        
+        self.view.backgroundColor = colors?.color
+        
 
         // Do any additional setup after loading the view.
     }
